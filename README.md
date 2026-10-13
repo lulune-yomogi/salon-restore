@@ -15,7 +15,7 @@
 2. 新しいサーバーに root でログインして、次の1行を貼り付けます。
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<ユーザー名>/salon-restore/main/restore.sh -o restore.sh && sudo bash restore.sh
+curl -fsSL https://raw.githubusercontent.com/lulune-yomogi/salon-restore/main/restore.sh -o restore.sh && sudo bash restore.sh
 ```
 
 3. 聞かれた順に、共有リンク → バックアップの鍵 → `yes` を入力します。あとは自動で進みます（30分前後）。
